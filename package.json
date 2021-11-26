@@ -1,7 +1,7 @@
 {
 	"name": "restapiassigment",
 	"version": "1.2.0",
-	"description": "COOLEST APP EVER!!!!! YEAAAAAAAAAAAAAH!!!!!",
+	"description": "COOL!!!!",
 	"main": "backend/app.js",
 	"scripts": {
 		"test": "test"
