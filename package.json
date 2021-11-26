@@ -1,6 +1,6 @@
 {
 	"name": "restapiassigment",
-	"version": "1.0.1",
+	"version": "1.2.0",
 	"description": "A demonstration project for web Design course assigment",
 	"main": "backend/app.js",
 	"scripts": {
