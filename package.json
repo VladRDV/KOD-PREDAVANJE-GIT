@@ -1,20 +1,20 @@
 {
-  "name": "restapiassigment",
-  "version": "1.0.0",
-  "description": "A demonstration project for web Design course assigment",
-  "main": "backend/app.js",
-  "scripts": {
-    "test": "test"
-  },
-  "keywords": [
-    "nodejs",
-    "rest-api",
-    "web-design",
-    "singidunum"
-  ],
-  "author": "Vladimir Radovanovich",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+	"name": "restapiassigment",
+	"version": "1.0.1",
+	"description": "A demonstration project for web Design course assigment",
+	"main": "backend/app.js",
+	"scripts": {
+		"test": "test"
+	},
+	"keywords": [
+		"nodejs",
+		"rest-api",
+		"web-design",
+		"singidunum"
+	],
+	"author": "Vladimir Radovanovich",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1"
+	}
 }
