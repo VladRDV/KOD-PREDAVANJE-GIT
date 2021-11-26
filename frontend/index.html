@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>REST API DEMO</title>
+		<!-- import our css and axios -->
+		<link rel="stylesheet" href="./styles/main.css" />
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	</head>
+	<body>
+		<h1 class="text title">Welcome :)</h1>
+		<button id="trigger-button" class="text">Press this to get user profile from server</button>
+		<span class="text vertical-offset">Select the method of fetching the data</span>
+		<select name="cars" id="fetching-method-select">
+			<option value="Fetch API">Fetch API</option>
+			<option value="XMLHttpRequest">XMLHttpRequest</option>
+			<option value="Axios">Axios</option>
+		</select>
+		<code id="json-display"> console.log('Hello World') </code>
+
+		<!-- import our JavaScript, it depends on DOM elements, that need to load first, so it is on the bottom of the body -->
+		<script src="./scripts/main.js"></script>
+	</body>
+</html>

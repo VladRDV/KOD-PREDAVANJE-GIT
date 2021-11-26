@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+body {
+	flex-direction: column;
+	display: flex;
+	background-color: white;
+	min-width: 100vw;
+	min-height: 100vh;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5% 0;
+	box-sizing: border-box;
+}
+
+.text {
+	font-size: 16px;
+	font-family: Orbitron;
+	color: tomato;
+	text-align: center;
+}
+
+.title {
+	font-size: 32px;
+	text-decoration: underline;
+}
+
+.vertical-offset {
+	margin: 10px 0;
+}
+
+#trigger-button {
+	border-radius: 6px;
+	background-color: tomato;
+	color: white;
+	height: 60px;
+	width: 300px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+#json-display {
+	height: 360px;
+	width: 300px;
+	margin-top: 10px;
+	background-color: navy;
+	color: white;
+	box-sizing: border-box;
+	padding: 10px;
+	overflow: auto;
+}
